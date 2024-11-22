@@ -37,3 +37,34 @@ a {
     text-decoration: none;
     color: white;
 }
+h2 {
+    text-align: center;
+}
+
+table,th,td, form {
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, form{
+    margin: auto;
+
+}
+
+th,td {
+    width: 28%;
+}
+
+th, form {
+    background-color: #ffcdcd;
+}
+
+form{
+    border-radius: 5%;
+    width: 30%;
+}
+
+.textoArribaIzquierda {
+    text-align: start;
+}

@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>YINGANGULI</h1>
-        <h3>Tu págima web a tu disposición</h3>
+        <h3>Tu página web a tu disposición</h3>
     </header>
     <nav>
         <ul>
@@ -18,10 +18,37 @@
             <li><a href="tarifas.html">Tarifas</a></li>
             <li><a href="reseñas.html">Reseñas</a></li>
         </ul>
-
-
     </nav>
-    <main></main>
+    <main>
+        <h2>Publica tu reseña</h2>
+        <form action="#" method="post"><br>
+            <label for="nombre"><strong>Nombre:</strong></label> <br>
+            <input type="text" id="nombre"><br>
+
+            <label for="correo"><strong>Correo:</strong></label> <br>
+            <input type="text" id="correo"><br><br>
+
+            <label for="review">Comenta su experiencia: </label>
+
+            <textarea id="review" name="review" rows="4" cols="50">
+            
+            </textarea>
+
+            <p><strong>Indique su nivel de satisfacción: </strong></p>
+            <input type="radio" name="satisfaccion" id="muybien" value="muybien">
+            <label for="muybien"><strong> Muy bien</strong></label><br>
+            <input type="radio" name="satisfaccion" id="Bien" value="Bien">
+            <label for="Bien"><strong> Bien</strong></label><br>
+            <input type="radio" name="satisfaccion" id="Normal" value="Normal">
+            <label for="Normal"><strong> Normal</strong></label><br>
+            <input type="radio" name="satisfaccion" id="Mal" value="Mal">
+            <label for="Mal"><strong> Mal</strong></label><br>
+            <input type="radio" name="satisfaccion" id="muymal" value="muymal">
+            <label for="muymal"><strong> Muy mal</strong></label><br><br>
+            <button type="submit">Enviar inscripción</button><br><br>
+        </form><br>
+
+    </main>
     <footer>
         <p>Yinganguli Corp. &copy; 2024</p>
     </footer>
