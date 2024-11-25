@@ -5,7 +5,7 @@ body {
 }
 
 header,footer {
-    background-color: #ff4949;
+    background-color: #4983cf;
     text-align: center;
     padding: 10px;
     color: white;
@@ -17,26 +17,35 @@ header {
 }
 
 nav{
-    text-align: center;
-    color: white;
-    background-color: darkred;
-
-}
-
-nav ul{
-    list-style: none;
-    word-spacing: 25px;
-    display: inline;
-}
-    
-nav ul li{
-    display: inline;
-}
-
-a {
-    text-decoration: none;
     color: white;
 }
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+  
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
 h2 {
     text-align: center;
 }
@@ -57,7 +66,7 @@ th,td {
 }
 
 th, form {
-    background-color: #ffcdcd;
+    background-color: #a8ceff;
 }
 
 form{
@@ -67,4 +76,17 @@ form{
 
 .textoArribaIzquierda {
     text-align: start;
+}
+
+.active {
+    background-color: #04AA6D;
+  }
+
+.foto {
+    width: 100%;
+}
+
+.subtitulo {
+    width: 90%;
+    margin: 5%;
 }
