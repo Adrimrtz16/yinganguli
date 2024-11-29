@@ -19,6 +19,8 @@ header,footer {
     color: white;
 }
 
+
+
 header{
     position: sticky;
     top: 0;
@@ -97,4 +99,25 @@ form{
 .subtitulo {
     width: 90%;
     margin: 5%;
+}
+
+.contenidoIzquierda {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.formularioIzquierda{
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-left: 2%;
+    margin-left: 50px;
+}
+
+.textoDerecha {
+    width: 60%;
+    float: left;
+    margin-left: 10px; /* Ajusta el valor según sea necesario */
 }
