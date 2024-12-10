@@ -1,52 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="yinganguli.css">
 </head>
+
 <body>
-    <header>
-        <h1>YINGANGULI</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="tarifas.html">Tarifas</a></li>
-            <li><a href="reseñas.html">Reseñas</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h2>CONTACTO</h2>
-        <p>yinganguli@gmail.com</p>
-        
-        <form action="#" method="post" class="formularioIzquierda"><br>
-            <label for="nombre" class="contenidoIzquierda"><strong>*Nombre y apellidos: </strong></label>
-            <input type="text" id="nombre" class="contenidoIzquierda"><br><br>
+    <div class="fondoPrueba">
+        <header class="textoAmarillo">
+            <h1>DARK WEB</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="tarifas.html">Tarifas</a></li>
+                <li><a href="reseñas.html">Reseñas</a></li>
+            </ul>
+        </nav>
+        <main><br>
+            <div>
+                <form action="#" method="post" class="formularioIzquierda form-contacto">
+                    <h2 class="textoAmarillo">CONTACTA CON NOSOTROS</h2>
+                    <div class="grupo-formulario">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                        <input type="text" name="telefono" placeholder="Teléfono" required>
+                    </div>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="mensaje" rows="4" placeholder="¿Qué podemos hacer por ti?" required></textarea>
+                    <input type="text" name="web" placeholder="Tu web (opcional)">
 
-            <label for="email" class="contenidoIzquierda"><strong>*Email:</strong></label>
-            <input type="text" id="email" class="contenidoIzquierda"><br><br>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="acepto" name="acepto" required>
+                        <label for="acepto">
+                            He leído y acepto la información sobre mis datos personales (obligatoria) explicada en la
+                            política de privacidad y protección de datos.
+                        </label>
+                    </div>
+                    <button type="submit">Enviar</button>
+                    </textarea><br>
 
-            <label for="telefono" class="contenidoIzquierda"><strong>*Teléfono:</strong></label>
-            <input type="text" id="telefono" class="contenidoIzquierda"><br><br>
+                </form>
+                <!--       </div>
+           <div class="textoDerecha">
+                <p class="textoBlanco"><strong>e-mail</strong></p>
+                <p>darkweb@gmail.com</p>
+            </div>-->
+                <div class="informacion-empresa">
+                    <h2>INFORMACIÓN DE NUESTRA EMPRESA</h2><br>
+                    <p><strong class="textoAmarillo">Email:</strong> contacto@darkweb.com</p>
+                    <p><strong class="textoAmarillo">Teléfono:</strong> 777-777-777</p>
+                    <p><strong class="textoAmarillo">Dirección:</strong> Calle Falsa 123, 30201 Cartagena</p>
+                    <p><strong class="textoAmarillo">Horario:</strong> Lunes a Viernes de 9:00 a 18:00</p>
 
-            <label for="review" class="contenidoIzquierda"><strong>*Comentario: </strong></label>
+                    <br>
+                    <p><strong class="textoAmarillo">Redes Sociales:
+                        <a href="https://www.facebook.com" target="_blank">
+                            <img src="https://e7.pngegg.com/pngimages/631/1001/png-clipart-computer-icons-facebook-social-media-email-share-icon-facebook-blue-text-thumbnail.png" alt="Facebook" class="social-icon">
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank">
+                            <img src="https://cdn.pixabay.com/photo/2021/06/15/12/14/instagram-6338393_1280.png" alt="Facebook" class="social-icon">
+                        </a>
+                        
+                    </strong></p>
+                   
+                </div>
 
-            <textarea id="review" name="review" rows="4" cols="30" class="contenidoIzquierda">
-            
-            </textarea><br><br><br><br><br>
 
-        </form>
-        <div class="textoDerecha">
-            <p>Este es el texto que estará justo a la derecha del formulario.</p>
-        </div>
-
-    </main>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <footer>
-        <p>Yinganguli Corp. &copy; 2024</p>
-    </footer>
+        </main>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <footer>
+            <p>Dark Web Corp. &copy; 2024</p>
+        </footer>
+    </div>
 </body>
+
 </html>
